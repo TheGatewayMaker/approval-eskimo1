@@ -1,6 +1,6 @@
 export function PortalFooter() {
   return (
-    <div className="mt-16 pt-8 border-t border-slate-700">
+    <div className="mt-16 pt-8 border-t border-white/10">
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mb-8">
         <div>
           <h4 className="text-sm font-semibold text-white mb-3">
