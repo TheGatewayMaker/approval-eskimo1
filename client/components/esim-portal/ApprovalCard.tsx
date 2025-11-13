@@ -32,7 +32,7 @@ export function ApprovalCard() {
           Secure verification via Eskimo App
         </p>
 
-        <div className="mt-8 pt-8 border-t border-white/10">
+        <div className="mt-8 pt-8 border-t border-slate-700">
           <div className="flex items-center justify-center gap-6 text-sm text-slate-300 font-semibold">
             <div className="flex items-center gap-2">
               <svg
