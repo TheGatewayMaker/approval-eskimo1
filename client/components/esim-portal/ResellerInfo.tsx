@@ -37,7 +37,9 @@ export function ResellerInfo({ name, ranking, type }: ResellerInfoProps) {
           <div className="text-3xl sm:text-4xl font-black text-white mb-3 leading-tight">
             #{ranking}
           </div>
-          <div className="text-sm text-slate-400 font-semibold">Among top resellers</div>
+          <div className="text-sm text-slate-400 font-semibold">
+            Among top resellers
+          </div>
         </div>
 
         <div className="flex flex-col">
@@ -47,7 +49,9 @@ export function ResellerInfo({ name, ranking, type }: ResellerInfoProps) {
           <div className="text-3xl sm:text-4xl font-black text-cyan-300 mb-3 leading-tight">
             {type}
           </div>
-          <div className="text-sm text-slate-400 font-semibold">Active partnership</div>
+          <div className="text-sm text-slate-400 font-semibold">
+            Active partnership
+          </div>
         </div>
       </div>
     </div>

@@ -19,7 +19,9 @@ export function HeroSection() {
       </div>
 
       <h1 className="text-5xl sm:text-6xl md:text-7xl font-black tracking-tight mb-8 leading-tight text-white">
-        Approve Your eSIM<br />Activation
+        Approve Your eSIM
+        <br />
+        Activation
       </h1>
 
       <p className="text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed font-semibold">

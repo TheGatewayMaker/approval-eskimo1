@@ -11,7 +11,9 @@ export function PortalHeader() {
             />
             <div>
               <div className="text-2xl font-black text-white">Eskimo</div>
-              <div className="text-xs text-slate-400 font-semibold">eSIM Activation</div>
+              <div className="text-xs text-slate-400 font-semibold">
+                eSIM Activation
+              </div>
             </div>
           </div>
           <div className="hidden sm:block text-right">
