@@ -12,7 +12,7 @@ export function ResellerInfo({ name, ranking, type }: ResellerInfoProps) {
         <div className="text-sm font-black text-cyan-300 uppercase tracking-wider">
           ✓ Authorized Reseller Partner
         </div>
-        <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-green-900/40 border border-green-400/40">
+        <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-green-900 border border-green-700">
           <div className="w-2 h-2 bg-green-400 rounded-full" />
           <span className="text-sm font-bold text-green-300">Verified</span>
         </div>
