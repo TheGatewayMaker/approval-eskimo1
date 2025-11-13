@@ -14,7 +14,7 @@ export function HeroSection() {
           />
         </svg>
         <span className="text-sm font-bold text-cyan-300 uppercase tracking-wider">
-          Reseller Approved Portal
+          Reseller Approval Portal
         </span>
       </div>
 
