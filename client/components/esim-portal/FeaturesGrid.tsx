@@ -1,7 +1,7 @@
 export function FeaturesGrid() {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-16">
-      <div className="p-5 rounded-lg bg-blue-900/30 border border-blue-700/60 hover:border-blue-600/80 transition-colors">
+      <div className="p-5 rounded-lg bg-white/5 border border-white/15 backdrop-blur-md hover:bg-white/10 transition-colors">
         <svg
           className="w-8 h-8 mx-auto mb-3 text-cyan-400"
           fill="none"
@@ -23,7 +23,7 @@ export function FeaturesGrid() {
         </p>
       </div>
 
-      <div className="p-5 rounded-lg bg-cyan-900/30 border border-cyan-700/60 hover:border-cyan-600/80 transition-colors">
+      <div className="p-5 rounded-lg bg-white/5 border border-white/15 backdrop-blur-md hover:bg-white/10 transition-colors">
         <svg
           className="w-8 h-8 mx-auto mb-3 text-cyan-400"
           fill="none"
@@ -45,7 +45,7 @@ export function FeaturesGrid() {
         </p>
       </div>
 
-      <div className="p-5 rounded-lg bg-blue-900/30 border border-blue-700/60 hover:border-blue-600/80 transition-colors">
+      <div className="p-5 rounded-lg bg-white/5 border border-white/15 backdrop-blur-md hover:bg-white/10 transition-colors">
         <svg
           className="w-8 h-8 mx-auto mb-3 text-cyan-400"
           fill="none"
