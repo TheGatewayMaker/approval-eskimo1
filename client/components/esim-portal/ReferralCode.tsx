@@ -9,7 +9,7 @@ export function ReferralCode({ code }: ReferralCodeProps) {
 
   return (
     <div className="mb-10 flex justify-center">
-      <div className="w-full max-w-lg bg-gradient-to-br from-amber-900/30 to-orange-900/30 border-2 border-amber-700/60 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+      <div className="w-full max-w-lg bg-gradient-to-br from-amber-500/10 to-orange-500/10 border border-amber-400/30 rounded-3xl p-8 shadow-lg backdrop-blur-xl hover:shadow-xl transition-shadow">
         <div className="text-center">
           <div className="text-xs font-bold text-amber-300 uppercase tracking-widest mb-5">
             Reseller's Referral Code
