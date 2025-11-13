@@ -1,6 +1,6 @@
 export function PortalHeader() {
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-white/10 bg-slate-900/30 backdrop-blur-xl">
+    <header className="sticky top-0 z-50 w-full border-b border-slate-700 bg-slate-900">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
