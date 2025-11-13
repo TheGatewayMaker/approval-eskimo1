@@ -6,7 +6,7 @@ interface ResellerInfoProps {
 
 export function ResellerInfo({ name, ranking, type }: ResellerInfoProps) {
   return (
-    <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl border-2 border-slate-700 shadow-lg p-8 sm:p-10 mb-10">
+    <div className="bg-gradient-to-br from-white/10 to-white/5 rounded-3xl border border-white/20 backdrop-blur-xl shadow-lg p-8 sm:p-10 mb-10">
       {/* Header with verification badge */}
       <div className="flex items-center justify-between mb-8">
         <div className="text-xs font-bold text-cyan-400 uppercase tracking-widest">
