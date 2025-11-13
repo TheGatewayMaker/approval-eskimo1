@@ -1,6 +1,6 @@
 export function PortalFooter() {
   return (
-    <div className="mt-16 pt-8 border-t border-white/10">
+    <div className="mt-16 pt-8 border-t border-slate-700">
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 mb-10">
         <div>
           <h4 className="text-base font-black text-white mb-4">
@@ -63,7 +63,7 @@ export function PortalFooter() {
         </div>
       </div>
 
-      <div className="border-t border-white/10 pt-8 text-center">
+      <div className="border-t border-slate-700 pt-8 text-center">
         <p className="text-sm text-slate-300 mb-2 font-semibold">
           © {new Date().getFullYear()} Eskimo Global. All rights reserved.
         </p>
