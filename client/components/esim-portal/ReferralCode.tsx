@@ -11,22 +11,8 @@ export function ReferralCode({ code }: ReferralCodeProps) {
     <div className="mb-10 flex justify-center">
       <div className="w-full max-w-lg bg-gradient-to-br from-amber-50 to-orange-50 border-2 border-amber-300 rounded-2xl p-8 shadow-md hover:shadow-lg transition-shadow">
         <div className="text-center">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-200 border border-amber-400 mb-5">
-            <svg
-              className="w-4 h-4 text-amber-700"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-            >
-              <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
-              <path
-                fillRule="evenodd"
-                d="M4 5a2 2 0 012-2 1 1 0 000 2H6a1 1 0 100-2 4 4 0 00-4 4v10a4 4 0 004 4h8a4 4 0 004-4V7a4 4 0 00-4-4h-1.5a1 1 0 000 2H12a2 2 0 012 2v10a2 2 0 01-2 2H6a2 2 0 01-2-2V5z"
-                clipRule="evenodd"
-              />
-            </svg>
-            <span className="text-xs font-bold text-amber-900">
-              Exclusive Offer
-            </span>
+          <div className="text-xs font-bold text-amber-900 uppercase tracking-widest mb-5">
+            Reseller's Referral Code
           </div>
 
           <h3 className="text-lg font-bold text-slate-900 mb-2">
