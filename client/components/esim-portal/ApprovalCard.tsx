@@ -1,7 +1,7 @@
 export function ApprovalCard() {
   return (
     <div className="mb-12 flex justify-center">
-      <div className="bg-slate-800 border-2 border-slate-700 rounded-2xl p-8 sm:p-10 shadow-lg hover:shadow-xl transition-shadow w-full max-w-lg">
+      <div className="bg-gradient-to-br from-white/10 to-white/5 rounded-3xl border border-white/20 backdrop-blur-xl p-8 sm:p-10 shadow-lg hover:shadow-xl transition-shadow w-full max-w-lg">
         <div className="flex items-center justify-center mb-6">
           <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-green-900/40 border border-green-700/60">
             <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
