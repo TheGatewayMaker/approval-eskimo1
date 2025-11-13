@@ -15,10 +15,10 @@ export function FeaturesGrid() {
             d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
           />
         </svg>
-        <h3 className="font-semibold text-white text-sm text-center">
+        <h3 className="font-black text-white text-base text-center">
           Verified
         </h3>
-        <p className="text-xs text-slate-400 mt-1 text-center">
+        <p className="text-sm text-slate-300 mt-2 text-center font-semibold">
           Identity verified & approved
         </p>
       </div>
@@ -37,10 +37,10 @@ export function FeaturesGrid() {
             d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
           />
         </svg>
-        <h3 className="font-semibold text-white text-sm text-center">
+        <h3 className="font-black text-white text-base text-center">
           Secure
         </h3>
-        <p className="text-xs text-slate-400 mt-1 text-center">
+        <p className="text-sm text-slate-300 mt-2 text-center font-semibold">
           End-to-end encrypted
         </p>
       </div>
@@ -59,10 +59,10 @@ export function FeaturesGrid() {
             d="M13 10V3L4 14h7v7l9-11h-7z"
           />
         </svg>
-        <h3 className="font-semibold text-white text-sm text-center">
+        <h3 className="font-black text-white text-base text-center">
           Instant
         </h3>
-        <p className="text-xs text-slate-400 mt-1 text-center">
+        <p className="text-sm text-slate-300 mt-2 text-center font-semibold">
           Immediate activation
         </p>
       </div>
