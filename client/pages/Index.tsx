@@ -8,13 +8,13 @@ import { PortalFooter } from "@/components/esim-portal/PortalFooter";
 
 export default function Index() {
   return (
-    <div className="min-h-screen w-full bg-slate-950">
+    <div className="min-h-screen w-full bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800">
       {/* Background gradient with subtle grid effect */}
-      <div className="fixed inset-0 -z-10 bg-gradient-to-br from-slate-950 via-slate-900 to-blue-900" />
+      <div className="fixed inset-0 -z-10 bg-gradient-to-br from-slate-900 via-indigo-900 to-slate-800" />
 
       {/* Decorative gradient blobs */}
-      <div className="fixed top-0 right-0 w-96 h-96 bg-gradient-to-br from-cyan-500/15 to-blue-600/15 rounded-full -mr-32 -mt-32 blur-3xl -z-10" />
-      <div className="fixed bottom-0 left-0 w-80 h-80 bg-gradient-to-tr from-blue-600/15 to-cyan-500/15 rounded-full -ml-32 -mb-32 blur-3xl -z-10" />
+      <div className="fixed top-0 right-0 w-96 h-96 bg-gradient-to-br from-cyan-400/20 to-blue-600/20 rounded-full -mr-32 -mt-32 blur-3xl -z-10" />
+      <div className="fixed bottom-0 left-0 w-80 h-80 bg-gradient-to-tr from-purple-600/20 to-cyan-500/20 rounded-full -ml-32 -mb-32 blur-3xl -z-10" />
 
       <PortalHeader />
 
