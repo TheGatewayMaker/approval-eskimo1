@@ -1,25 +1,25 @@
 export function PortalFooter() {
   return (
-    <div className="mt-16 pt-8 border-t border-slate-200">
+    <div className="mt-16 pt-8 border-t border-slate-700">
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mb-8">
         <div>
-          <h4 className="text-sm font-semibold text-slate-900 mb-3">
+          <h4 className="text-sm font-semibold text-white mb-3">
             About This Portal
           </h4>
-          <p className="text-xs text-slate-600 leading-relaxed">
+          <p className="text-xs text-slate-400 leading-relaxed">
             This is an official eSIM Activation Portal powered by Eskimo Global,
             providing secure and instant eSIM activation for approved resellers
             and partners worldwide.
           </p>
         </div>
         <div>
-          <h4 className="text-sm font-semibold text-slate-900 mb-3">
+          <h4 className="text-sm font-semibold text-white mb-3">
             Security & Trust
           </h4>
           <ul className="space-y-2">
-            <li className="text-xs text-slate-600 flex items-center gap-2">
+            <li className="text-xs text-slate-400 flex items-center gap-2">
               <svg
-                className="w-4 h-4 text-blue-500"
+                className="w-4 h-4 text-cyan-400"
                 fill="currentColor"
                 viewBox="0 0 20 20"
               >
@@ -31,9 +31,9 @@ export function PortalFooter() {
               </svg>
               SSL/TLS Encrypted Connection
             </li>
-            <li className="text-xs text-slate-600 flex items-center gap-2">
+            <li className="text-xs text-slate-400 flex items-center gap-2">
               <svg
-                className="w-4 h-4 text-blue-500"
+                className="w-4 h-4 text-cyan-400"
                 fill="currentColor"
                 viewBox="0 0 20 20"
               >
@@ -45,9 +45,9 @@ export function PortalFooter() {
               </svg>
               Identity Verified & Approved
             </li>
-            <li className="text-xs text-slate-600 flex items-center gap-2">
+            <li className="text-xs text-slate-400 flex items-center gap-2">
               <svg
-                className="w-4 h-4 text-blue-500"
+                className="w-4 h-4 text-cyan-400"
                 fill="currentColor"
                 viewBox="0 0 20 20"
               >
@@ -63,11 +63,11 @@ export function PortalFooter() {
         </div>
       </div>
 
-      <div className="border-t border-slate-200 pt-6 text-center">
-        <p className="text-xs text-slate-600 mb-2">
+      <div className="border-t border-slate-700 pt-6 text-center">
+        <p className="text-xs text-slate-400 mb-2">
           © {new Date().getFullYear()} Eskimo Global. All rights reserved.
         </p>
-        <p className="text-xs text-slate-400">
+        <p className="text-xs text-slate-500">
           Official eSIM Activation Approval Portal by Eskimo Global
         </p>
       </div>
