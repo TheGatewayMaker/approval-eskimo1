@@ -1,21 +1,21 @@
 export function PortalHeader() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-white/10 bg-slate-900/30 backdrop-blur-xl">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
             <img
               src="https://i.ibb.co/d4z3607G/eskimologo.png"
               alt="Eskimo Logo"
-              className="w-10 h-10"
+              className="w-12 h-12"
             />
             <div>
-              <div className="text-lg font-bold text-white">Eskimo</div>
-              <div className="text-xs text-slate-400">eSIM Activation</div>
+              <div className="text-2xl font-black text-white">Eskimo</div>
+              <div className="text-xs text-slate-400 font-semibold">eSIM Activation</div>
             </div>
           </div>
           <div className="hidden sm:block text-right">
-            <div className="text-xs font-semibold text-slate-300 uppercase tracking-wide">
+            <div className="text-sm font-black text-slate-300 uppercase tracking-wider">
               Official Reseller Portal
             </div>
           </div>
