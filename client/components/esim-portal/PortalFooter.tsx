@@ -63,7 +63,7 @@ export function PortalFooter() {
         </div>
       </div>
 
-      <div className="border-t border-slate-700 pt-6 text-center">
+      <div className="border-t border-white/10 pt-6 text-center">
         <p className="text-xs text-slate-400 mb-2">
           © {new Date().getFullYear()} Eskimo Global. All rights reserved.
         </p>
