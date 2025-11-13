@@ -21,7 +21,7 @@ export function ReferralCode({ code }: ReferralCodeProps) {
 
           <div
             onClick={handleCopyCode}
-            className="inline-block cursor-pointer bg-white/5 border border-amber-400/40 rounded-2xl px-8 py-6 mb-6 backdrop-blur-md hover:bg-white/10 transition-colors group"
+            className="inline-block cursor-pointer bg-slate-900 border border-amber-600 rounded-2xl px-8 py-6 mb-6 hover:bg-slate-800 transition-colors group"
           >
             <div className="text-sm font-bold text-amber-300 uppercase tracking-wider mb-2">
               Use Code
