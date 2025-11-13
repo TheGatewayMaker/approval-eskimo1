@@ -1,9 +1,9 @@
 export function HeroSection() {
   return (
-    <div className="text-center mb-12">
-      <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-900/40 border border-blue-700/60 mb-6">
+    <div className="text-center mb-14">
+      <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-900/40 border border-white/15 mb-8">
         <svg
-          className="w-4 h-4 text-cyan-400"
+          className="w-5 h-5 text-cyan-400"
           fill="currentColor"
           viewBox="0 0 20 20"
         >
@@ -13,16 +13,16 @@ export function HeroSection() {
             clipRule="evenodd"
           />
         </svg>
-        <span className="text-sm font-semibold text-cyan-300">
+        <span className="text-sm font-bold text-cyan-300 uppercase tracking-wider">
           Reseller Approved Portal
         </span>
       </div>
 
-      <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight mb-6 leading-tight text-white">
-        Approve Your eSIM Activation
+      <h1 className="text-5xl sm:text-6xl md:text-7xl font-black tracking-tight mb-8 leading-tight text-white">
+        Approve Your eSIM<br />Activation
       </h1>
 
-      <p className="text-lg text-slate-300 max-w-3xl mx-auto leading-relaxed">
+      <p className="text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed font-semibold">
         Complete your eSIM activation through this secure, verified portal.
         Click the button below to approve and proceed with instant activation.
       </p>
