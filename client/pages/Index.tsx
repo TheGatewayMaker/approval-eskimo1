@@ -2,6 +2,7 @@ import { PortalHeader } from "@/components/esim-portal/PortalHeader";
 import { HeroSection } from "@/components/esim-portal/HeroSection";
 import { ResellerInfo } from "@/components/esim-portal/ResellerInfo";
 import { ApprovalCard } from "@/components/esim-portal/ApprovalCard";
+import { ReferralCode } from "@/components/esim-portal/ReferralCode";
 import { FeaturesGrid } from "@/components/esim-portal/FeaturesGrid";
 import { PortalFooter } from "@/components/esim-portal/PortalFooter";
 
@@ -25,6 +26,8 @@ export default function Index() {
           <ResellerInfo name="M Fahad" ranking="87th" type="Affiliate" />
 
           <ApprovalCard />
+
+          <ReferralCode code="TE77769" />
 
           <FeaturesGrid />
 
